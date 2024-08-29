@@ -1,0 +1,21 @@
+import React from 'react';
+import ServiceDescription from '../components/ServiceDescription';
+
+const services = [
+    { name: 'Manicure', description: 'A detailed manicure service.' },
+    { name: 'Pedicure', description: 'A relaxing pedicure service.' },
+    { name: 'Gel Nails', description: 'Beautiful gel nails.' },
+];
+
+const Services = () => {
+    return (
+        <div>
+            <h1>Our Services</h1>
+            {services.map(service => (
+                <ServiceDescription key={service.name} service={service} />
+            ))}
+        </div>
+    );
+};
+
+export default Services;

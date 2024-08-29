@@ -1,0 +1,12 @@
+import React from 'react';
+
+const ServiceDescription = ({ service }) => {
+    return (
+        <section>
+            <h2>{service.name}</h2>
+            <p>{service.description}</p>
+        </section>
+    );
+};
+
+export default ServiceDescription;

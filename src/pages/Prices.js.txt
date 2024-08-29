@@ -1,0 +1,13 @@
+import React from 'react';
+import PriceList from '../components/PriceList';
+
+const Prices = () => {
+    return (
+        <div>
+            <h1>Price List</h1>
+            <PriceList />
+        </div>
+    );
+};
+
+export default Prices;

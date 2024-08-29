@@ -1,0 +1,19 @@
+import React from 'react';
+import Gallery from '../components/Gallery';
+import PriceList from '../components/PriceList';
+
+const Home = () => {
+    return (
+        <div>
+            <h1>Welcome to Our Manicure Salon</h1>
+            <Gallery />
+            <PriceList />
+            <section>
+                <h2>About Us</h2>
+                <p>We offer the best manicure services with a touch of elegance.</p>
+            </section>
+        </div>
+    );
+};
+
+export default Home;
